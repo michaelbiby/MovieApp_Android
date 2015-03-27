@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Movie Collection</string>
+    <string name="no_movies">No Movies Added</string>
+    <string name="menuitem_add">Add</string>
+    <string name="menuitem_edit">Edit</string>
+    <string name="menuitem_delete">Delete</string>
+    <string name="button_save_movie">Save Movie</string>
+    <string name="movie_name">Movie Name (Required)</string>
+    <string name="movie_director">Director</string>
+    <string name="movie_producer">Producer</string>
+    <string name="movie_written_by">Written By</string>
+    <string name="movie_country">Country</string>
+    <string name="movie_language">Language</string>
+    <string name="movie_budget">Budget</string>
+    <string name="label_name">Name:</string>
+    <string name="label_director">Director:</string>
+    <string name="label_producer">Producer:</string>
+    <string name="label_writter">Written By:</string>
+    <string name="label_country">Country:</string>
+    <string name="label_language">Language:</string>
+    <string name="label_budget">Budget:</string>
+    <string name="confirm_title">Are You Sure?</string>
+    <string name="confirm_message">This will permanently delete the Movie</string>
+    <string name="ok">OK</string>
+    <string name="error_message">You must enter a Movie name</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+
+</resources>

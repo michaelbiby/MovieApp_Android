@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addEditScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1"
+        android:orientation="vertical"
+        android:useDefaultMargins="true" >
+
+        <EditText
+            android:id="@+id/movieNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/movie_name"
+            android:imeOptions="actionNext"
+             >
+        </EditText>
+
+        <EditText
+            android:id="@+id/producerEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/movie_producer"
+            android:imeOptions="actionNext"
+            android:inputType="text" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/directorEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/movie_director"
+            android:imeOptions="actionNext"
+            >
+        </EditText>
+
+        <EditText
+            android:id="@+id/writterEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/movie_written_by"
+            android:imeOptions="actionNext"
+             >
+        </EditText>
+
+        <EditText
+            android:id="@+id/countryEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/movie_country"
+            android:imeOptions="actionNext"
+             >
+        </EditText>
+
+        <EditText
+            android:id="@+id/languageEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/movie_language"
+            android:imeOptions="actionNext"
+             >
+        </EditText>
+
+        <EditText
+            android:id="@+id/budgetEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/movie_budget"
+            android:imeOptions="actionDone"
+            android:inputType="number" >
+        </EditText>
+
+        <Button
+            android:id="@+id/saveMovieButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_save_movie" >
+        </Button>
+    </GridLayout>
+
+</ScrollView>
